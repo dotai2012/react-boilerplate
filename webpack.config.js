@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const VENDOR = ['react', 'react-dom', 'react-redux', 'redux'];
 const config = {
-  entry: { bundle: './src/front/index.js', vendor: VENDOR },
+  entry: { bundle: './src/index.js', vendor: VENDOR },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: '[name].js',
