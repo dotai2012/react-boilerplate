@@ -1,9 +1,9 @@
 /node_modules
 /build
+yarn.lock
 bundle.js
 npm-debug.log
 .DS_Store
-yarn.lock
 
 # IntelliJ
 *.iml

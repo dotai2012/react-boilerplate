@@ -2,9 +2,9 @@ const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const VENDOR = ['react', 'react-dom', 'react-redux', 'redux'];
+const VENDOR = ['react', 'react-dom', 'react-redux', 'redux', 'redux-thunk', 'react-router', 'react-router-dom'];
 const config = {
-  entry: { bundle: './src/index.js', vendor: VENDOR },
+  entry: { bundle: './src/front/index.js' },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: '[name].js',
@@ -52,25 +52,9 @@ const config = {
   mode: 'development',
   optimization: {
     splitChunks: {
-      chunks: 'async',
-      minSize: 30000,
-      maxSize: 0,
-      minChunks: 1,
-      maxAsyncRequests: 5,
-      maxInitialRequests: 3,
-      automaticNameDelimiter: '~',
-      name: true,
-      cacheGroups: {
-        vendors: {
-          test: /[\\/]node_modules[\\/]/,
-          priority: -10,
-        },
-        default: {
-          minChunks: 2,
-          priority: -20,
-          reuseExistingChunk: true,
-        },
-      },
+      chunks: 'all',
+      minSize: 0,
+      name: 'vendor',
     },
   },
   plugins: [

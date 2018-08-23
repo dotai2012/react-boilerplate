@@ -10,6 +10,10 @@
     "server": "nodemon app.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
     "react": "16.4.2",
     "react-dom": "16.4.2",
     "react-redux": "5.0.7",
@@ -19,18 +23,18 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.56",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.56",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.56",
-    "@babel/preset-env": "^7.0.0-beta.56",
-    "@babel/preset-react": "^7.0.0-beta.56",
-    "babel-loader": "^8.0.0-beta.4",
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/preset-react": "^7.0.0-rc.2",
+    "babel-loader": "^8.0.0-beta",
     "concurrently": "^3.6.1",
     "css-loader": "^1.0.0",
-    "file-loader": "^1.1.11",
-    "mini-css-extract-plugin": "^0.4.1",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
     "style-loader": "^0.22.1",
-    "webpack": "^4.16.5",
+    "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
   }
 }
