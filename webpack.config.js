@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const VENDOR = ['react', 'react-dom', 'react-redux', 'redux', 'redux-thunk', 'react-router', 'react-router-dom'];
 const config = {
   entry: { bundle: './src/front/index.js' },
   output: {
