@@ -32,14 +32,14 @@
     "@babel/preset-env": "^7.0.0-rc.3",
     "@babel/preset-react": "^7.0.0-rc.3",
     "@babel/runtime": "^7.0.0-rc.3",
-    "babel-loader": "^8.0.0-beta",
-    "concurrently": "^4.0.0",
+    "babel-loader": "^8.0.2",
+    "concurrently": "^4.0.1",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "mini-css-extract-plugin": "^0.4.2",
-    "style-loader": "^0.22.1",
+    "style-loader": "^0.23.0",
     "url-loader": "1.1.1",
-    "webpack": "^4.17.1",
+    "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   }
 }
