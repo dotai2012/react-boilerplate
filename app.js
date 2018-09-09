@@ -41,7 +41,7 @@ const api = require('./src/back/route');
 
 app.use('/api', api);
 
-app.use('/build', express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
