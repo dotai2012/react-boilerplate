@@ -47,8 +47,7 @@ const config = {
       },
     ],
   },
-  mode: 'development',
-  devtool: 'source-map',
+  mode: 'production',
   optimization: {
     splitChunks: {
       chunks: 'all',

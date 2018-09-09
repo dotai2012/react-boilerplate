@@ -1,21 +1,23 @@
 {
   "name": "ReactRedux",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"npm run watch\" \"npm run server\"",
-    "build": "webpack",
-    "watch": "webpack -w",
-    "server": "nodemon app.js"
+    "dev": "concurrently \"npm run client:watch\" \"npm run server:watch\"",
+    "client:build": "cross-env NODE_ENV=production webpack --config ./webpack.production.config.js",
+    "client:watch": "webpack -w",
+    "server:start": "cross-env NODE_ENV=production node app.js",
+    "server:watch": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
     "express": "^4.16.3",
     "react": "^16.5.0",
-    "react-dom": "^16.4.2",
+    "react-dom": "^16.5.0",
     "react-redux": "5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
