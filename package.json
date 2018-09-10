@@ -1,6 +1,6 @@
 {
   "name": "ReactRedux",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "main": "app.js",
   "license": "MIT",
   "scripts": {
@@ -38,14 +38,15 @@
     "babel-loader": "^8.0.2",
     "concurrently": "^4.0.1",
     "css-loader": "^1.0.0",
+    "cssnano": "^4.1.0",
     "file-loader": "^2.0.0",
     "mini-css-extract-plugin": "^0.4.2",
-    "node-sass": "^4.9.3",
     "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
+    "postcss-preset-env": "^5.3.0",
+    "precss": "^3.1.2",
     "style-loader": "^0.23.0",
     "url-loader": "1.1.1",
-    "webpack": "^4.17.2",
+    "webpack": "^4.17.3",
     "webpack-cli": "^3.1.0"
   }
 }

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import RouteApp from '../route';
-// import '../asset/scss/main.scss';
+// import '../asset/css/main.css';
 
 class App extends Component {
   render() {
     return (
-        <React.Fragment>
-            <RouteApp />
-        </React.Fragment>
+      <React.Fragment>
+        <RouteApp />
+      </React.Fragment>
     );
   }
 }

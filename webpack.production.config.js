@@ -16,12 +16,11 @@ const config = {
         use: 'babel-loader',
       },
       {
-        test: /\.(sa|sc|c)ss$/,
+        test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
           'postcss-loader',
-          'sass-loader',
         ],
       },
       {
