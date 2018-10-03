@@ -15,8 +15,8 @@ ReactDOM.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </Provider>
-  , document.querySelector('#root'),
+  </Provider>,
+  document.querySelector('#root'),
 );
 
 // Firebase
