@@ -154,4 +154,4 @@
 //     res.json({ success: true, msg: 'Updated password element', result });
 //   });
 // });
-module.exports = router;
+// module.exports = router;
