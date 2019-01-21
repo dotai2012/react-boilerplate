@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const Dotenv = require('dotenv-webpack');
 
 const config = {
-  entry: { bundle: './src/index.js' },
+  entry: { bundle: './src/front/index.js' },
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: '[name].js',
