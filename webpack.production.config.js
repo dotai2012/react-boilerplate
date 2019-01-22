@@ -7,7 +7,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: '[name].js',
-    publicPath: 'public/',
+    publicPath: '/',
   },
   module: {
     rules: [
