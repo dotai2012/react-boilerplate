@@ -1,12 +1,11 @@
-// import axios from 'axios';
 // import { INFO_USER } from './type';
 
-// export const fetchUser = () => (dispatch) => {
-//   axios.get('/api/user/info')
-//     .then((res) => {
-//       dispatch({
-//         type: INFO_USER,
-//         payload: res,
-//       });
-//     });
+// const fetchUser = () => async (dispatch, getState, { api }) => {
+//   const res = await api.get('/user/info');
+//   return dispatch({
+//     type: INFO_USER,
+//     payload: res,
+//   });
 // };
+
+// export { fetchUser };

@@ -5,7 +5,6 @@
 // import { notifyUser } from '../actions';
 // import Notify from '../service/notify';
 
-
 // class Auth extends Component {
 //   state = {
 //     email: '',
